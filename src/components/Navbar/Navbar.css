@@ -1,0 +1,85 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: monospace;
+  font-size: 1px;
+}
+
+.sidebar-toggle button {
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+
+.logo-section {
+  display: flex;
+  align-items: left;
+  /* margin-left: -430px; */
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #0366d6;
+  font-size: 16px;
+  margin-left: 35px;
+}
+
+.badge {
+  background-color: #ddd;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.search-bar {
+  flex-grow: 1;
+  padding: 0 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  height: 10px;
+  margin-top: 7px;
+  margin-left: 450px;
+}
+
+.action-icons button {
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+
+.profile-pic {
+  width: 30px;
+  height: 10px;
+  border-radius: 50%;
+}
