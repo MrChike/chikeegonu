@@ -37,7 +37,7 @@ const Navbar = () => {
         &nbsp;
         <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Projects</a>
         &nbsp;
-        <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Certifications</a>
+        <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Certification</a>
       </div>
 
       {/* Action Icons */}
