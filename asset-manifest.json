@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chikeegonu/static/css/main.792bc8d0.css",
-    "main.js": "/chikeegonu/static/js/main.889d0c41.js",
+    "main.css": "/chikeegonu/static/css/main.64f565a5.css",
+    "main.js": "/chikeegonu/static/js/main.24d2ae21.js",
     "static/js/453.d6b234c9.chunk.js": "/chikeegonu/static/js/453.d6b234c9.chunk.js",
     "static/media/ProfilePic.jpg": "/chikeegonu/static/media/ProfilePic.c0d6bc4694cabf6a2724.jpg",
     "static/media/badge.avif": "/chikeegonu/static/media/badge.0d548c604ae3764c3f40.avif",
     "index.html": "/chikeegonu/index.html",
-    "main.792bc8d0.css.map": "/chikeegonu/static/css/main.792bc8d0.css.map",
-    "main.889d0c41.js.map": "/chikeegonu/static/js/main.889d0c41.js.map",
+    "main.64f565a5.css.map": "/chikeegonu/static/css/main.64f565a5.css.map",
+    "main.24d2ae21.js.map": "/chikeegonu/static/js/main.24d2ae21.js.map",
     "453.d6b234c9.chunk.js.map": "/chikeegonu/static/js/453.d6b234c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.792bc8d0.css",
-    "static/js/main.889d0c41.js"
+    "static/css/main.64f565a5.css",
+    "static/js/main.24d2ae21.js"
   ]
 }
