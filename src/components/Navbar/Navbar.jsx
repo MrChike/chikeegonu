@@ -25,7 +25,6 @@ const Navbar = () => {
         <a href="https://github.com/MrChike">
           <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" className="logo" />
         </a>
-          <span className="username">MrChike</span>
         &nbsp;
       </div>
 

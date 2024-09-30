@@ -18,7 +18,9 @@ const Profile = ({data}) => {
     organization: 'CodeCResent',
     location: 'Lagos, Nigeria',
     email: 'chikeegonu@gmail.com',
-    linkedin: <a href="https://www.linkedin.com/in/chikeegonu/" target="_blank"> www.linkedin.com/in/chikeegonu/ </a>, 
+    linkedin: <a href="https://www.linkedin.com/in/chikeegonu/" target="_blank"> linkedin.com/in/chikeegonu/ </a>, 
+    hackerrank: <a href="https://www.hackerrank.com/profile/chike" target="_blank"> hackerrank.com/profile/chike </a>, 
+    leetcode: <a href="https://leetcode.com/u/MrChike/" target="_blank"> leetcode.com/u/MrChike/ </a>, 
     achievementBadge: Badge
   };
   return (

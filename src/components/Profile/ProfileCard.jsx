@@ -1,8 +1,9 @@
 import React from 'react';
 import './ProfileCard.css'; // Import your CSS styles here
 import { 
-  FaBuilding, FaLinkedin
+  FaBuilding, FaLinkedin, FaHackerrank
 } from 'react-icons/fa';
+import { SiLeetcode } from "react-icons/si";
 import { GoLocation } from 'react-icons/go';
 import { MdEmail } from 'react-icons/md';
 
@@ -31,6 +32,8 @@ const ProfileCard = ({ user }) => {
           <p><GoLocation/> {user.location}</p>
           <p><MdEmail/> {user.email}</p>
           <p><FaLinkedin/> {user.linkedin}</p>
+          <p><FaHackerrank/> {user.hackerrank}</p>
+          <p><SiLeetcode/> {user.leetcode}</p>
         </div>
 
         <div className="profile-achievements">
