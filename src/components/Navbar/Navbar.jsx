@@ -1,7 +1,7 @@
 // Navbar.js
 import { useState } from 'react';
 import './Navbar.css';  // Import styles
-import Badge from '../../utils/img/badge.avif';
+import Badge from '../../utils/img/arctic-code-achievement.png';
 
 export const externalFunction = (data) => {
   return data;

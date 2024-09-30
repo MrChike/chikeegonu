@@ -73,8 +73,8 @@
 .profile-info {
   text-align: left;
   font-size: 14px;
-  color: #666;
   margin-bottom: 20px;
+  color: #333;
 }
 
 .profile-info p {
@@ -82,7 +82,8 @@
 }
 
 /* Achievements section */
-.profile-achievements h4 {
+.profile-achievements {
+  text-align: left;
   font-size: 16px;
   margin-bottom: 10px;
   color: #333;
