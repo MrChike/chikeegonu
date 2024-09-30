@@ -21,7 +21,7 @@ const Profile = ({data}) => {
     linkedin: <a href="https://www.linkedin.com/in/chikeegonu/" target="_blank"> linkedin.com/in/chikeegonu/ </a>, 
     hackerrank: <a href="https://www.hackerrank.com/profile/chike" target="_blank"> hackerrank.com/profile/chike </a>, 
     leetcode: <a href="https://leetcode.com/u/MrChike/" target="_blank"> leetcode.com/u/MrChike/ </a>, 
-    DEV: <a href="https://dev.to/mrchike" target="_blank"> dev.to/mrchike </a>, 
+    DEV: <a href="https://dev.to/dashboard" target="_blank"> dev.to/dashboard </a>, 
     achievementBadge: Badge
   };
   return (
