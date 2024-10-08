@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+/* For devices with a width of up to 320px */
+@media (max-width: 320px) {
+    /* Styles for mobile devices */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* For devices with a width of up to 600px */
+@media (max-width: 600px) {
+    /* Styles for mobile devices */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* For devices between 601px and 768px */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Styles for larger mobile devices (landscape) */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* For devices between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for tablets */
 }
 
-.App-link {
-  color: #61dafb;
+/* For devices between 1025px and 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for small laptops and larger tablets */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* For devices between 1281px and 1440px */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Styles for laptops and desktops */
 }
+
+/* For devices 1441px and above */
+@media (min-width: 1441px) {
+    /* Styles for large desktops */
+}
+

@@ -5,7 +5,6 @@ import Card from '../../../src/components/Card/Card.jsx'
 import ProfileCard from './ProfileCard';
 import ProfilePic from '../../utils/img/ProfilePic.jpg';
 import Badge from '../../utils/img/arctic-code-achievement.png';
-import Navbar from '../Navbar/Navbar.jsx';
 
 const Profile = ({data}) => {
   const user = {

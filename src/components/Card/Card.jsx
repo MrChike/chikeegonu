@@ -5,7 +5,7 @@ import {
 } from 'react-icons/fa';
 import { SiCplusplus, SiPython, SiHtml5, SiKubernetes, 
   SiDjango, SiOctopusdeploy, SiJenkins, SiNginx, SiRedis,
-  SiAmazonroute53, SiAmazons3, SiAmazonec2, SiJavascript, SiTypescript, SiCelery, SiApachekafka } from "react-icons/si";
+  SiAmazonroute53, SiAmazons3, SiAmazonec2, SiJavascript, SiCelery, SiApachekafka } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 
@@ -15,8 +15,8 @@ const Card = () => {
       name: 'Signals',
       description: (
       <>
-        A KPI Management System built for <a href="https://www.bpe.gov.ng/" target="_blank" rel="noreferrer"> BPE </a> 
-        to help monitor one of it's subsidiary an Electricity distribution company and it's branches to meet it's set out goals
+        A pet project inspired from an actual KPI Management System built for <a href="https://www.bpe.gov.ng/" target="_blank" rel="noreferrer"> BPE </a> 
+        to help monitor performance for one of it's subsidiary an Electricity distribution company and it's branches to meet it's set out goals
         for the year.
       </>
       ),

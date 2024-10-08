@@ -7,54 +7,12 @@
   border-radius: 30px;
 }
 
-.profile-left {
-  width: 30%;
-  text-align: center;
-  padding-right: 20px;
-  border-right: 1px solid #e1e4e8;
-}
-
 .profile-right {
   width: 70%;
   text-align: center;
   padding-right: 20px;
   border-right: 1px solid #e1e4e8;
 }
-
-.profile-pic {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-}
-
-.profile-name {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.profile-username {
-  color: #586069;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.profile-bio {
-  font-size: 16px;
-  color: #24292e;
-}
-
-.customize-link {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-.repos-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
 .repo-card {
   background: #fff;
   padding: 15px;
@@ -69,9 +27,10 @@
 }
 
 .repo-name {
-  color: #0366d6;
+  /* color: #0366d6; */
+  color: red;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 28px;
   font-weight: bold;
   font-family: monospace;
 }
@@ -84,31 +43,6 @@
   border-radius: 12px;
   font-size: 12px;
 }
-
-.repo-description {
-  margin: 10px;
-  color: #586069;
-  text-align: left;
-  font-size: 12px;
-  font-family: cursive;
-}
-
-.repo-language {
-  display: flex;
-  align-items: center;
-}
-
-.language-color {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  margin-right: 6px;
-}
-
-.python { background-color: #3572A5; }
-.cpp { background-color: #f34b7d; }
-.shell { background-color: #89e051; }
-.javascript { background-color: #f1e05a; }
 
 .modern-button {
   font-family: 'Montserrat', sans-serif;
@@ -129,5 +63,115 @@
   background: linear-gradient(135deg, #f5f5f5, #dcdcdc); /* Gradient shift on hover */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deepen shadow on hover */
   transform: scale(1.05); /* Slight scale up */
+}
+
+.repo-description {
+  margin: 10px;
+  color: #586069;
+  text-align: left;
+  font-size: 12px;
+  font-family: cursive;
+}
+
+.repo-language {
+  display: flex;
+  align-items: center;
+}
+
+
+/* For devices with a width of up to 600px */
+@media (max-width: 600px) {
+    /* Styles for mobile devices */
+  .repo-card {
+    background: #fff;
+    width: fit-content;
+    padding: 15px;
+    border: 1px solid #e1e4e8;
+    border-radius: 30px;
+  }
+
+  .repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .repo-name {
+    /* color: #0366d6; */
+    color: red;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: monospace;
+    width: max-content;
+  }
+
+  .repo-badge {
+    background-color: #e1e4e8;
+    margin-left: 500px;
+    color: #586069;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+
+  .modern-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 1000;
+    letter-spacing: 0.5px;
+    color: #3C3C3C; /* Modern grey color */
+    background: linear-gradient(135deg, #e0e0e0, #f5f5f5); /* Soft gradient */
+    padding: 10px 20px;
+    border-radius: 50px; /* Rounded corners for pill effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ccc; /* Light border */
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+
+  .modern-button:hover {
+    background: linear-gradient(135deg, #f5f5f5, #dcdcdc); /* Gradient shift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deepen shadow on hover */
+    transform: scale(1.05); /* Slight scale up */
+  }
+
+  .repo-description {
+    margin: 10px;
+    color: #586069;
+    text-align: left;
+    font-size: 28px;
+    font-family: cursive;
+  }
+
+  .repo-language {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/* For devices between 601px and 768px */
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Styles for larger mobile devices (landscape) */
+}
+
+/* For devices between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for tablets */
+}
+
+/* For devices between 1025px and 1280px */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for small laptops and larger tablets */
+}
+
+/* For devices between 1281px and 1440px */
+@media (min-width: 1281px) and (max-width: 1440px) {
+    /* Styles for laptops and desktops */
+}
+
+/* For devices 1441px and above */
+@media (min-width: 1441px) {
+    /* Styles for large desktops */
 }
 
