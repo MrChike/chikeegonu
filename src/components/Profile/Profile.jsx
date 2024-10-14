@@ -21,6 +21,7 @@ const Profile = ({data}) => {
     hackerrank: <a href="https://www.hackerrank.com/profile/chike" target="_blank"> hackerrank.com/profile/chike </a>, 
     leetcode: <a href="https://leetcode.com/u/MrChike/" target="_blank"> leetcode.com/u/MrChike/ </a>, 
     DEV: <a href="https://dev.to/mrchike" target="_blank"> dev.to/mrchike </a>, 
+    Devpost: <a href="https://devpost.com/MrChike/challenges" target="_blank"> devpost.com/MrChike/Hackathons </a>, 
     achievementBadge: Badge
   };
   return (

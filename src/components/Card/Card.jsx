@@ -5,7 +5,8 @@ import {
 } from 'react-icons/fa';
 import { SiCplusplus, SiPython, SiHtml5, SiKubernetes, 
   SiDjango, SiOctopusdeploy, SiJenkins, SiNginx, SiRedis,
-  SiAmazonroute53, SiAmazons3, SiAmazonec2, SiJavascript, SiCelery, SiApachekafka } from "react-icons/si";
+  SiAmazonroute53, SiAmazons3, SiAmazonec2, SiJavascript, 
+  SiCelery, SiApachekafka } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 

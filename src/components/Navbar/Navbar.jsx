@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="nav-links">
         <a href="#">Overview</a>
         &nbsp;
-        <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Contributions </a>
+        <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Contributions</a>
         &nbsp;
         <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Projects</a>
         &nbsp;
