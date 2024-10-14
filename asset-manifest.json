@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/chikeegonu/static/css/main.0876fae9.css",
-    "main.js": "/chikeegonu/static/js/main.ac5d77da.js",
+    "main.css": "/chikeegonu/static/css/main.b6642c92.css",
+    "main.js": "/chikeegonu/static/js/main.f4c564b3.js",
     "static/js/453.d6b234c9.chunk.js": "/chikeegonu/static/js/453.d6b234c9.chunk.js",
     "static/media/ProfilePic.jpg": "/chikeegonu/static/media/ProfilePic.c0d6bc4694cabf6a2724.jpg",
     "static/media/arctic-code-achievement.png": "/chikeegonu/static/media/arctic-code-achievement.9e8e0d93d00a1d62f7a4.png",
     "index.html": "/chikeegonu/index.html",
-    "main.0876fae9.css.map": "/chikeegonu/static/css/main.0876fae9.css.map",
-    "main.ac5d77da.js.map": "/chikeegonu/static/js/main.ac5d77da.js.map",
+    "main.b6642c92.css.map": "/chikeegonu/static/css/main.b6642c92.css.map",
+    "main.f4c564b3.js.map": "/chikeegonu/static/js/main.f4c564b3.js.map",
     "453.d6b234c9.chunk.js.map": "/chikeegonu/static/js/453.d6b234c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0876fae9.css",
-    "static/js/main.ac5d77da.js"
+    "static/css/main.b6642c92.css",
+    "static/js/main.f4c564b3.js"
   ]
 }
