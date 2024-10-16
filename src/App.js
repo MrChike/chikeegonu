@@ -1,12 +1,10 @@
 import './App.css';
-import Navbar, {externalFunction} from './components/Navbar/Navbar';
-import Profile from './components/Profile/Profile';
+import Overview from './pages/Overview'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Profile />
+      <Overview />
     </div>
   );
 }

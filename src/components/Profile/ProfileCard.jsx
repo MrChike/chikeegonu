@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProfileCard.css'; // Import your CSS styles here
 import { 
-  FaBuilding, FaLinkedin, FaHackerrank, FaDev
+  FaBuilding, FaLinkedin, FaKaggle, FaDev
 } from 'react-icons/fa';
 import { SiLeetcode, SiDevpost } from "react-icons/si";
 import { GoLocation } from 'react-icons/go';
@@ -33,6 +33,7 @@ const ProfileCard = ({ user }) => {
           <p><MdEmail/> {user.email}</p>
           <p><FaLinkedin/> {user.linkedin}</p>
           <p><SiLeetcode/> {user.leetcode}</p>
+          <p><FaKaggle/> {user.kaggle}</p>
           <p><SiDevpost/> {user.Devpost}</p>
           <p><FaDev/> {user.DEV}</p>
         </div>
