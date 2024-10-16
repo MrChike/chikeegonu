@@ -72,6 +72,11 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: calc(25% - 20px); /* Adjusts based on container width */
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.certificate:hover {
+  transform: scale(1.05);
 }
 
 .certificate img {
@@ -113,6 +118,55 @@
   border-radius: 4px;
   font-size: 10px;
   font-weight: bold;
+}
+
+/* ------------------------------ */
+
+
+/* Modal styles */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position: relative;
+  width: 80%;
+  max-height: 90%;
+  max-width: 1000px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-y: auto;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.certificate-details {
+  text-align: center;
+}
+
+.certificate-details h3 {
+  margin: 10px 0;
+}
+
+.certificate-details p {
+  font-size: 18px;
+  color: #555;
 }
 
 
