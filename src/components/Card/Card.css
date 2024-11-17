@@ -122,7 +122,6 @@
 
 /* ------------------------------ */
 
-
 /* Modal styles */
 .modal {
   display: flex;
@@ -169,41 +168,218 @@
   color: #555;
 }
 
+@media (max-width: 600px) {
+  /* For small mobile devices (portrait) */
+  .project-list {
+    margin: 10px;
+  }
 
-@media (max-width: 768px) {
   .project-card {
+    padding: 10px;
     width: 100%;
+  }
+
+  .project-title {
+    font-size: 16px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+
+  .project-icons {
+    font-size: 16px;
+  }
+
+  .gallery {
+    gap: 10px;
+  }
+
+  .certificate {
+    width: 100%;
+  }
+
+  .certificate h3 {
+    font-size: 1em;
+  }
+
+  .btn-project,
+  .btn-contribution {
+    font-size: 12px;
+    padding: 5px 12px;
   }
 }
 
-
-/* For devices with a width of up to 600px */
-@media (max-width: 600px) {
-    /* Styles for mobile devices */
-}
-
-/* For devices between 601px and 768px */
 @media (min-width: 601px) and (max-width: 768px) {
-    /* Styles for larger mobile devices (landscape) */
+  /* For larger mobile devices (landscape) */
+  .project-list {
+    margin: 15px;
+  }
+
+  .project-card {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .project-title {
+    font-size: 17px;
+  }
+
+  .project-description {
+    font-size: 15px;
+  }
+
+  .gallery {
+    gap: 15px;
+  }
+
+  .certificate {
+    width: calc(33.333% - 15px); /* 3 certificates per row */
+  }
+
+  .certificate h3 {
+    font-size: 1em;
+  }
+
+  .btn-project,
+  .btn-contribution {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
 }
 
-/* For devices between 769px and 1024px */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for tablets */
+  /* For tablets */
+  .project-list {
+    margin: 20px;
+  }
+
+  .project-card {
+    width: 48%; /* Two cards per row */
+    padding: 15px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-description {
+    font-size: 16px;
+  }
+
+  .gallery {
+    gap: 20px;
+  }
+
+  .certificate {
+    width: calc(25% - 20px); /* 4 certificates per row */
+  }
+
+  .btn-project,
+  .btn-contribution {
+    font-size: 14px;
+    padding: 7px 16px;
+  }
 }
 
-/* For devices between 1025px and 1280px */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    /* Styles for small laptops and larger tablets */
+  /* For small laptops and larger tablets */
+  .project-list {
+    margin: 30px;
+  }
+
+  .project-card {
+    width: 48%; /* Two cards per row */
+    padding: 20px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .project-description {
+    font-size: 17px;
+  }
+
+  .gallery {
+    gap: 25px;
+  }
+
+  .certificate {
+    width: calc(25% - 20px); /* 4 certificates per row */
+  }
+
+  .btn-project,
+  .btn-contribution {
+    font-size: 15px;
+    padding: 8px 18px;
+  }
 }
 
-/* For devices between 1281px and 1440px */
 @media (min-width: 1281px) and (max-width: 1440px) {
-    /* Styles for laptops and desktops */
+  /* For laptops and desktops */
+  .project-list {
+    margin: 40px;
+  }
+
+  .project-card {
+    width: 32%; /* Three cards per row */
+    padding: 25px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .project-description {
+    font-size: 18px;
+  }
+
+  .gallery {
+    gap: 30px;
+  }
+
+  .certificate {
+    width: calc(25% - 30px); /* 4 certificates per row */
+  }
+
+  .btn-project,
+  .btn-contribution {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
 
-/* For devices 1441px and above */
 @media (min-width: 1441px) {
-    /* Styles for large desktops */
-}
+  /* For large desktops */
+  .project-list {
+    margin: 50px;
+  }
 
+  .project-card {
+    width: 32%; /* Three cards per row */
+    padding: 30px;
+  }
+
+  .project-title {
+    font-size: 22px;
+  }
+
+  .project-description {
+    font-size: 19px;
+  }
+
+  .gallery {
+    gap: 35px;
+  }
+
+  .certificate {
+    width: calc(20% - 30px); /* 5 certificates per row */
+  }
+
+  .btn-project,
+  .btn-contribution {
+    font-size: 17px;
+    padding: 12px 25px;
+  }
+}

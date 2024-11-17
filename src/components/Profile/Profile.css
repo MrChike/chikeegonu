@@ -5,6 +5,7 @@
   padding: 20px;
   background-color: #f6f8fa;
   border-radius: 30px;
+  flex-direction: row; /* Default horizontal layout */
 }
 
 .profile-right {
@@ -13,11 +14,13 @@
   padding-right: 20px;
   border-right: 1px solid #e1e4e8;
 }
+
 .repo-card {
   background: #fff;
   padding: 15px;
   border: 1px solid #e1e4e8;
   border-radius: 30px;
+  margin-bottom: 20px;
 }
 
 .repo-header {
@@ -27,8 +30,7 @@
 }
 
 .repo-name {
-  /* color: #0366d6; */
-  color: red;
+  color: red; /* Change to the desired color */
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
@@ -78,100 +80,218 @@
   align-items: center;
 }
 
+/* ------------------------------ */
 
-/* For devices with a width of up to 600px */
+/* For devices with a width of up to 600px (small mobile devices) */
 @media (max-width: 600px) {
-    /* Styles for mobile devices */
-  .repo-card {
-    background: #fff;
-    width: fit-content;
+  /* Adjust profile container layout */
+  .profile-container {
+    flex-direction: column; /* Stack the elements vertically on small screens */
     padding: 15px;
-    border: 1px solid #e1e4e8;
-    border-radius: 30px;
   }
 
-  .repo-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  .profile-right {
+    width: 100%; /* Full width on mobile */
+    border-right: none; /* Remove the border on mobile */
+    padding-right: 0;
+  }
+
+  .repo-card {
+    width: 100%; /* Make repo card full-width on small screens */
+    padding: 15px;
+    border-radius: 15px; /* Slightly smaller border radius */
   }
 
   .repo-name {
-    /* color: #0366d6; */
-    color: red;
-    text-decoration: none;
-    font-size: 28px;
-    font-weight: bold;
-    font-family: monospace;
-    width: max-content;
+    font-size: 18px; /* Increase repo name size */
   }
 
   .repo-badge {
-    background-color: #e1e4e8;
-    margin-left: 500px;
-    color: #586069;
-    padding: 2px 6px;
-    border-radius: 12px;
-    font-size: 12px;
+    margin-left: 0; /* Align the badge to the left */
+    font-size: 10px;
   }
 
   .modern-button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 10px;
-    font-weight: 1000;
-    letter-spacing: 0.5px;
-    color: #3C3C3C; /* Modern grey color */
-    background: linear-gradient(135deg, #e0e0e0, #f5f5f5); /* Soft gradient */
-    padding: 10px 20px;
-    border-radius: 50px; /* Rounded corners for pill effect */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    border: 1px solid #ccc; /* Light border */
-    transition: all 0.3s ease;
-    display: inline-block;
-  }
-
-  .modern-button:hover {
-    background: linear-gradient(135deg, #f5f5f5, #dcdcdc); /* Gradient shift on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deepen shadow on hover */
-    transform: scale(1.05); /* Slight scale up */
+    font-size: 12px;
+    padding: 8px 18px; /* Smaller button padding */
+    border-radius: 50px;
   }
 
   .repo-description {
-    margin: 10px;
-    color: #586069;
-    text-align: left;
-    font-size: 28px;
-    font-family: cursive;
-  }
-
-  .repo-language {
-    display: flex;
-    align-items: center;
+    font-size: 14px; /* Increase font size for readability */
+    margin-bottom: 15px;
   }
 }
 
-/* For devices between 601px and 768px */
+/* For devices between 601px and 768px (larger mobile devices or small tablets) */
 @media (min-width: 601px) and (max-width: 768px) {
-    /* Styles for larger mobile devices (landscape) */
+  .profile-container {
+    flex-direction: column; /* Stack vertically on larger mobile devices */
+    padding: 20px;
+  }
+
+  .profile-right {
+    width: 100%; /* Full width on this screen size */
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .repo-card {
+    width: 100%; /* Full width repo card */
+    padding: 15px;
+  }
+
+  .repo-name {
+    font-size: 20px; /* Adjust repo name size */
+  }
+
+  .repo-badge {
+    font-size: 12px;
+    margin-left: 0; /* Align badge to the left */
+  }
+
+  .modern-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .repo-description {
+    font-size: 16px; /* Increase description font size */
+  }
 }
 
-/* For devices between 769px and 1024px */
+/* For devices between 769px and 1024px (tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for tablets */
+  .profile-container {
+    flex-direction: row; /* Switch back to row layout for tablet screens */
+    padding: 20px;
+  }
+
+  .profile-right {
+    width: 65%; /* Adjust width for tablets */
+    padding-right: 20px;
+  }
+
+  .repo-card {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px; /* Rounded corners for tablets */
+  }
+
+  .repo-name {
+    font-size: 22px; /* Adjust font size */
+  }
+
+  .repo-badge {
+    font-size: 12px;
+    margin-left: 0;
+  }
+
+  .modern-button {
+    font-size: 16px;
+    padding: 12px 25px; /* Adjust button padding */
+  }
+
+  .repo-description {
+    font-size: 18px;
+  }
 }
 
-/* For devices between 1025px and 1280px */
+/* For devices between 1025px and 1280px (small laptops and larger tablets) */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    /* Styles for small laptops and larger tablets */
+  .profile-container {
+    padding: 30px;
+  }
+
+  .profile-right {
+    width: 60%; /* Adjust width */
+  }
+
+  .repo-card {
+    width: 100%; /* Full width for repo cards */
+    padding: 25px;
+  }
+
+  .repo-name {
+    font-size: 24px;
+  }
+
+  .repo-badge {
+    font-size: 14px;
+  }
+
+  .modern-button {
+    font-size: 18px;
+    padding: 14px 30px;
+  }
+
+  .repo-description {
+    font-size: 20px;
+  }
 }
 
-/* For devices between 1281px and 1440px */
+/* For devices between 1281px and 1440px (laptops and desktops) */
 @media (min-width: 1281px) and (max-width: 1440px) {
-    /* Styles for laptops and desktops */
+  .profile-container {
+    padding: 40px;
+  }
+
+  .profile-right {
+    width: 60%; /* Adjust width for larger desktops */
+  }
+
+  .repo-card {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .repo-name {
+    font-size: 26px;
+  }
+
+  .repo-badge {
+    font-size: 14px;
+  }
+
+  .modern-button {
+    font-size: 20px;
+    padding: 16px 35px;
+  }
+
+  .repo-description {
+    font-size: 22px;
+  }
 }
 
-/* For devices 1441px and above */
+/* For devices 1441px and above (large desktops) */
 @media (min-width: 1441px) {
-    /* Styles for large desktops */
-}
+  .profile-container {
+    padding: 50px;
+  }
 
+  .profile-right {
+    width: 55%; /* More space for profile content */
+  }
+
+  .repo-card {
+    width: 100%;
+    padding: 35px;
+  }
+
+  .repo-name {
+    font-size: 28px;
+  }
+
+  .repo-badge {
+    font-size: 16px;
+  }
+
+  .modern-button {
+    font-size: 22px;
+    padding: 18px 40px;
+  }
+
+  .repo-description {
+    font-size: 24px;
+  }
+}

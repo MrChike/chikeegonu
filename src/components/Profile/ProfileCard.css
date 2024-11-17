@@ -22,6 +22,7 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 /* Profile name and username */
@@ -94,33 +95,251 @@
   height: 50px;
 }
 
-/* For devices with a width of up to 600px */
+/* ------------------------------ */
+
+/* For devices with a width of up to 600px (small mobile devices) */
 @media (max-width: 600px) {
-    /* Styles for mobile devices */
+  .profile-card {
+    width: 90%; /* Make the profile card take up most of the screen width */
+    padding: 10px;
+  }
+
+  .profile-img {
+    width: 120px; /* Reduce the size of the profile image */
+    height: 120px;
+  }
+
+  .profile-name {
+    font-size: 20px; /* Adjust font size for small screens */
+  }
+
+  .profile-username {
+    font-size: 14px; /* Reduce username size */
+  }
+
+  .profile-bio {
+    font-size: 12px; /* Reduce bio font size */
+  }
+
+  .edit-profile-btn {
+    font-size: 12px; /* Adjust button size */
+    padding: 8px 16px;
+  }
+
+  .profile-stats {
+    font-size: 12px; /* Adjust stats font size */
+  }
+
+  .profile-info {
+    font-size: 12px; /* Adjust info font size */
+  }
+
+  .profile-achievements {
+    font-size: 14px; /* Adjust achievements font size */
+  }
 }
 
-/* For devices between 601px and 768px */
+/* For devices between 601px and 768px (larger mobile devices or small tablets) */
 @media (min-width: 601px) and (max-width: 768px) {
-    /* Styles for larger mobile devices (landscape) */
+  .profile-card {
+    width: 80%; /* Make the profile card take up 80% of the screen */
+  }
+
+  .profile-img {
+    width: 130px; /* Slightly larger profile image */
+    height: 130px;
+  }
+
+  .profile-name {
+    font-size: 22px; /* Adjust font size for readability */
+  }
+
+  .profile-username {
+    font-size: 15px; /* Adjust font size for username */
+  }
+
+  .profile-bio {
+    font-size: 13px; /* Adjust bio font size */
+  }
+
+  .edit-profile-btn {
+    font-size: 13px;
+    padding: 9px 18px;
+  }
+
+  .profile-stats {
+    font-size: 13px;
+  }
+
+  .profile-info {
+    font-size: 13px;
+  }
+
+  .profile-achievements {
+    font-size: 15px;
+  }
 }
 
-/* For devices between 769px and 1024px */
+/* For devices between 769px and 1024px (tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for tablets */
+  .profile-card {
+    width: 70%; /* Make profile card take up 70% of screen on tablets */
+  }
+
+  .profile-img {
+    width: 140px; /* Larger profile image for tablets */
+    height: 140px;
+  }
+
+  .profile-name {
+    font-size: 24px;
+  }
+
+  .profile-username {
+    font-size: 16px;
+  }
+
+  .profile-bio {
+    font-size: 14px;
+  }
+
+  .edit-profile-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .profile-stats {
+    font-size: 14px;
+  }
+
+  .profile-info {
+    font-size: 14px;
+  }
+
+  .profile-achievements {
+    font-size: 16px;
+  }
 }
 
-/* For devices between 1025px and 1280px */
+/* For devices between 1025px and 1280px (small laptops and larger tablets) */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    /* Styles for small laptops and larger tablets */
+  .profile-card {
+    width: 60%; /* Make profile card take up 60% of screen on small laptops */
+  }
+
+  .profile-img {
+    width: 150px; /* Standard profile image size */
+    height: 150px;
+  }
+
+  .profile-name {
+    font-size: 26px; /* Larger name on desktops */
+  }
+
+  .profile-username {
+    font-size: 18px;
+  }
+
+  .profile-bio {
+    font-size: 15px;
+  }
+
+  .edit-profile-btn {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+  .profile-stats {
+    font-size: 16px;
+  }
+
+  .profile-info {
+    font-size: 16px;
+  }
+
+  .profile-achievements {
+    font-size: 18px;
+  }
 }
 
-/* For devices between 1281px and 1440px */
+/* For devices between 1281px and 1440px (laptops and desktops) */
 @media (min-width: 1281px) and (max-width: 1440px) {
-    /* Styles for laptops and desktops */
+  .profile-card {
+    width: 50%; /* Make profile card take up 50% of screen on laptops */
+  }
+
+  .profile-img {
+    width: 160px; /* Slightly larger profile image */
+    height: 160px;
+  }
+
+  .profile-name {
+    font-size: 28px;
+  }
+
+  .profile-username {
+    font-size: 20px;
+  }
+
+  .profile-bio {
+    font-size: 16px;
+  }
+
+  .edit-profile-btn {
+    font-size: 18px;
+    padding: 14px 28px;
+  }
+
+  .profile-stats {
+    font-size: 18px;
+  }
+
+  .profile-info {
+    font-size: 18px;
+  }
+
+  .profile-achievements {
+    font-size: 20px;
+  }
 }
 
-/* For devices 1441px and above */
+/* For devices 1441px and above (large desktops) */
 @media (min-width: 1441px) {
-    /* Styles for large desktops */
-}
+  .profile-card {
+    width: 40%; /* Make profile card take up 40% of screen on large desktops */
+  }
 
+  .profile-img {
+    width: 180px; /* Larger profile image for large screens */
+    height: 180px;
+  }
+
+  .profile-name {
+    font-size: 30px; /* Larger font size for profile name */
+  }
+
+  .profile-username {
+    font-size: 22px;
+  }
+
+  .profile-bio {
+    font-size: 18px;
+  }
+
+  .edit-profile-btn {
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  .profile-stats {
+    font-size: 20px;
+  }
+
+  .profile-info {
+    font-size: 20px;
+  }
+
+  .profile-achievements {
+    font-size: 22px;
+  }
+}

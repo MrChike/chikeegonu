@@ -5,7 +5,7 @@
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: monospace;
-  font-size: 1px;
+  font-size: 16px; /* Adjust font size for better readability */
 }
 
 .sidebar-toggle button {
@@ -16,8 +16,9 @@
 
 .logo-section {
   display: flex;
-  align-items: left;
-  /* margin-left: -430px; */
+  align-items: center;
+  /* You may use margin-left or padding to adjust the position */
+  margin-left: 20px;
 }
 
 .logo {
@@ -69,7 +70,7 @@
   align-items: center;
   height: 10px;
   margin-top: 7px;
-  margin-left: 380px;
+  margin-left: 20px; /* Adjust the position of action icons */
 }
 
 .action-icons button {
@@ -80,37 +81,270 @@
 
 .profile-pic {
   width: 30px;
-  height: 10px;
+  height: 30px;
   border-radius: 50%;
 }
 
-/* For devices with a width of up to 600px */
+/* ------------------------------ */
+
+/* For devices with a width of up to 600px (small mobile devices) */
 @media (max-width: 600px) {
-    /* Styles for mobile devices */
+  .navbar {
+    flex-direction: column; /* Stack elements vertically on mobile */
+    padding: 15px;
+  }
+
+  .logo-section {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .search-bar {
+    margin-top: 15px;
+  }
+
+  .search-bar input {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .action-icons {
+    margin-left: 0;
+    margin-top: 15px;
+    justify-content: center;
+  }
+
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  .username {
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
-/* For devices between 601px and 768px */
+/* For devices between 601px and 768px (larger mobile devices or small tablets) */
 @media (min-width: 601px) and (max-width: 768px) {
-    /* Styles for larger mobile devices (landscape) */
+  .navbar {
+    flex-direction: column; /* Stack navbar elements vertically */
+    padding: 20px;
+  }
+
+  .logo-section {
+    margin-left: 10px;
+    justify-content: center;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+    margin-left: 0;
+    margin-bottom: 12px;
+  }
+
+  .search-bar {
+    margin-top: 20px;
+  }
+
+  .search-bar input {
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  .action-icons {
+    margin-left: 0;
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  .username {
+    font-size: 17px;
+    text-align: center;
+  }
 }
 
-/* For devices between 769px and 1024px */
+/* For devices between 769px and 1024px (tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for tablets */
+  .navbar {
+    flex-direction: row; /* Keep elements in a row */
+    justify-content: space-between;
+    padding: 15px 20px;
+  }
+
+  .logo-section {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+    margin-left: 25px;
+  }
+
+  .search-bar {
+    width: 40%;
+  }
+
+  .search-bar input {
+    font-size: 16px;
+  }
+
+  .action-icons {
+    margin-left: 20px;
+  }
+
+  .profile-pic {
+    width: 35px;
+    height: 35px;
+  }
+
+  .username {
+    font-size: 18px;
+  }
 }
 
-/* For devices between 1025px and 1280px */
+/* For devices between 1025px and 1280px (small laptops or larger tablets) */
 @media (min-width: 1025px) and (max-width: 1280px) {
-    /* Styles for small laptops and larger tablets */
+  .navbar {
+    padding: 15px 25px;
+    justify-content: space-between;
+  }
+
+  .logo-section {
+    margin-left: 0;
+  }
+
+  .nav-links {
+    margin-left: 50px;
+  }
+
+  .nav-links a {
+    font-size: 17px;
+    margin-left: 30px;
+  }
+
+  .search-bar {
+    width: 50%;
+  }
+
+  .search-bar input {
+    font-size: 17px;
+  }
+
+  .action-icons {
+    margin-left: 30px;
+  }
+
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  .username {
+    font-size: 19px;
+  }
 }
 
-/* For devices between 1281px and 1440px */
+/* For devices between 1281px and 1440px (laptops and desktops) */
 @media (min-width: 1281px) and (max-width: 1440px) {
-    /* Styles for laptops and desktops */
+  .navbar {
+    padding: 15px 30px;
+    justify-content: space-between;
+  }
+
+  .logo-section {
+    margin-left: 0;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+    margin-left: 40px;
+  }
+
+  .search-bar {
+    width: 60%;
+  }
+
+  .search-bar input {
+    font-size: 18px;
+  }
+
+  .action-icons {
+    margin-left: 40px;
+  }
+
+  .profile-pic {
+    width: 45px;
+    height: 45px;
+  }
+
+  .username {
+    font-size: 20px;
+  }
 }
 
-/* For devices 1441px and above */
+/* For devices 1441px and above (large desktops) */
 @media (min-width: 1441px) {
-    /* Styles for large desktops */
-}
+  .navbar {
+    padding: 15px 40px;
+    justify-content: space-between;
+  }
 
+  .logo-section {
+    margin-left: 0;
+  }
+
+  .nav-links a {
+    font-size: 18px;
+    margin-left: 50px;
+  }
+
+  .search-bar {
+    width: 70%;
+  }
+
+  .search-bar input {
+    font-size: 18px;
+  }
+
+  .action-icons {
+    margin-left: 50px;
+  }
+
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+  }
+
+  .username {
+    font-size: 22px;
+  }
+}
