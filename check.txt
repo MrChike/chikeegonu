@@ -1,4 +1,0 @@
-  master
-* media_queries
-  trimming
-  lala
