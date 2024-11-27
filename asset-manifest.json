@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/chikeegonu/static/css/main.66bb42c6.css",
-    "main.js": "/chikeegonu/static/js/main.85a880ea.js",
+    "main.css": "/chikeegonu/static/css/main.43d08b02.css",
+    "main.js": "/chikeegonu/static/js/main.c76d85dd.js",
     "static/js/453.d6b234c9.chunk.js": "/chikeegonu/static/js/453.d6b234c9.chunk.js",
     "static/media/cousera_certification.png": "/chikeegonu/static/media/cousera_certification.947a6e7d3041b9198099.png",
     "static/media/ProfilePic.jpg": "/chikeegonu/static/media/ProfilePic.c0d6bc4694cabf6a2724.jpg",
     "static/media/arctic-code-achievement.png": "/chikeegonu/static/media/arctic-code-achievement.9e8e0d93d00a1d62f7a4.png",
     "index.html": "/chikeegonu/index.html",
-    "main.66bb42c6.css.map": "/chikeegonu/static/css/main.66bb42c6.css.map",
-    "main.85a880ea.js.map": "/chikeegonu/static/js/main.85a880ea.js.map",
+    "main.43d08b02.css.map": "/chikeegonu/static/css/main.43d08b02.css.map",
+    "main.c76d85dd.js.map": "/chikeegonu/static/js/main.c76d85dd.js.map",
     "453.d6b234c9.chunk.js.map": "/chikeegonu/static/js/453.d6b234c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66bb42c6.css",
-    "static/js/main.85a880ea.js"
+    "static/css/main.43d08b02.css",
+    "static/js/main.c76d85dd.js"
   ]
 }
