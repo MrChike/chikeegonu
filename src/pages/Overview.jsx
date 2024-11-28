@@ -44,7 +44,8 @@ const Overview = () => {
 
   return (
     <>
-      <nav className="navbar">
+      {/* <nav className="navbar"> */}
+       <nav className={`navbar ${isNavbarOpen ? 'open' : ''}`}>
         {/* Sidebar Toggle */}
         <div className="sidebar-toggle">
           <button onClick={toggleNavbar}>

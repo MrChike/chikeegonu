@@ -43,11 +43,6 @@
   transition: all 0.3s ease;
 }
 
-/* .nav-links {
-  display: none;
-  transition: all 0.3s ease;
-} */
-
 .nav-links a {
   text-decoration: none;
   color: #0366d6;
@@ -163,6 +158,7 @@
     margin-top: 20px;
   }
 
+
   .nav-links a {
     font-size: 15px;
     margin-left: 0;
@@ -193,9 +189,6 @@
     font-size: 17px;
     text-align: center;
   }
-   .nav-links {
-    display: none;
-  }
 }
 
 /* For devices between 769px and 1024px (tablets) */
@@ -210,11 +203,12 @@
     margin-left: 0;
   }
 
-  .nav-links {
+  /* .nav-links {
     display: flex;
     align-items: center;
     margin-left: 30px;
-  }
+  } */
+
 
   .nav-links a {
     font-size: 16px;
@@ -254,8 +248,25 @@
     margin-left: 0;
   }
 
-  .nav-links {
+  /* .nav-links {
+    display: none;
     margin-left: 50px;
+  } */
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar.open .nav-links {
+    display: flex;
+  }
+
+  /* You can also style the toggle button */
+  .sidebar-toggle {
+    display: block;
   }
 
   .nav-links a {
