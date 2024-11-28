@@ -68,11 +68,11 @@
 }
 
 .repo-description {
-  margin: 10px;
+  margin: 12px;
   color: #586069;
   text-align: left;
-  font-size: 12px;
-  font-family: cursive;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .repo-language {

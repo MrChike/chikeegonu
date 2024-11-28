@@ -57,7 +57,7 @@ const Card = ({ tab }) => {
       type: 'project',
     },
     {
-      name: 'EUV Metrology Scanner',
+      name: 'EUV Scanner',
       description: (
         <>
           <a href="https://www.asml.com/en" target="_blank" rel="noreferrer">ASML</a> is a Dutch company and one of the leading suppliers of photolithography equipment used in the semiconductor industry. Founded in 1984, ASML plays a crucial role in the manufacturing of integrated circuits, enabling the production of smaller, faster, and more efficient microchips.
