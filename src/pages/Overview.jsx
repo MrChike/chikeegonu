@@ -22,8 +22,8 @@ const Overview = () => {
     profilePicture: ProfilePic,
     name: 'Chike Egonu',
     username: 'MrChike',
-    bio: 'A self-disciplined, focused & experienced software engineer with the desire to solve world problems via tech.',
-    followers: 1000,
+    bio: 'A self-disciplined and focused software engineer with experience in creating innovative solutions with a desire to contribute & solve real-world problems.',
+    followers: 24,
     following: 'Elon Musk',
     organization: 'CodeCResent',
     location: 'Lagos, Nigeria',
@@ -34,6 +34,7 @@ const Overview = () => {
     kaggle: <a href="https://www.kaggle.com/chikeegonu" target="_blank" rel="noreferrer">kaggle.com/chikeegonu</a>, 
     DEV: <a href="https://dev.to/mrchike" target="_blank" rel="noreferrer">dev.to/mrchike</a>, 
     Devpost: <a href="https://devpost.com/MrChike/challenges" target="_blank" rel="noreferrer">devpost.com/MrChike/Hackathons</a>, 
+    Github: <a href="https://github.com/MrChike" target="_blank" rel="noreferrer">github.com/MrChike</a>, 
     achievementBadge: Badge
   };
 
@@ -45,7 +46,8 @@ const Overview = () => {
   return (
     <>
       {/* <nav className="navbar"> */}
-       <nav className={`navbar ${isNavbarOpen ? 'open' : ''}`}>
+
+      <nav className={`navbar ${isNavbarOpen ? 'open' : ''}`}>
         {/* Sidebar Toggle */}
         <div className="sidebar-toggle">
           <button onClick={toggleNavbar}>
@@ -62,17 +64,12 @@ const Overview = () => {
         </div>
 
         {/* Navigation Links */}
-        {isNavbarOpen && (
-          <div className="nav-links">
-            <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Overviews</a>
-            &nbsp;
-            <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Contributions</a>
-            &nbsp;
-            <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Projects</a>
-            &nbsp;
-            <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Certifications</a>
-          </div>
-        )}
+        <div className={`nav-links ${isNavbarOpen ? 'open' : ''}`}>
+          <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Overviews</a>
+          <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Contributions</a>
+          <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Projects</a>
+          <a href="#" onClick={(e) => handleLinkClick(e.target.innerText)}>Certifications</a>
+        </div>
 
         {/* Action Icons */}
         <div className="action-icons">

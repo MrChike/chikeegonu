@@ -6,22 +6,32 @@ import {
 import { SiCplusplus, SiPython, SiHtml5, SiKubernetes, 
   SiDjango, SiOctopusdeploy, SiJenkins, SiNginx, SiRedis,
   SiAmazonroute53, SiAmazons3, SiAmazonec2, SiJavascript, 
-  SiCelery, SiApachekafka } from "react-icons/si";
+  SiCelery, SiApachekafka, SiTypescript } from "react-icons/si";
 import { FaGolang } from "react-icons/fa6";
 
 
 const Card = ({ tab }) => {
   const projects = [
     {
-      name: 'Signals',
+      name: 'ELEMES',
       description: (
         <>
-          A pet project inspired by an actual KPI Management System built for <a href="https://www.bpe.gov.ng/" target="_blank" rel="noreferrer">BPE</a> 
-          to help monitor performance for one of its subsidiaries, an electricity distribution company and its branches, to meet set goals for the year.
+          A pet project built out of fun for educational purpose
         </>
       ),
-      icons: [<FaGithub />, ' ', <FaPython />, ' ', <FaDocker />, ' ', <SiKubernetes />, ' ', <SiJavascript />, ' ', <FaReact />, ' ', <SiDjango />, ' ', <SiJenkins />, ' ', <SiNginx />, ' ', <SiRedis />, ' ', <SiOctopusdeploy />, ' ', <SiAmazonroute53 />, ' ', <SiAmazons3 />, ' ', <SiAmazonec2 />, ' ', <SiCelery />],
-      link: '#',
+      icons: [<FaGithub />, ' ', <FaPython />, ' ', <SiJavascript />, ' ', <FaReact />, ' ', <SiDjango />, ' ', <SiTypescript />],
+      link: 'https://next13-lms-platform-eight.vercel.app/search',
+      type: 'project',
+    },
+    {
+      name: 'Trail',
+      description: (
+        <>
+          Trail is a cloud-based Corporate Performance Tracking, Monitoring, and Impact Assurance tool that enables organizations to drive efficiency, performance, and growth using the power of data, automation, and gamification technology for <a href="https://venturegardengroup.com/" target="_blank" rel="noreferrer">Venture Garden Group</a>.
+        </>
+      ),
+      icons: [<FaGithub />, ' ', <FaPython />, ' ', <FaDocker />, ' ', <SiKubernetes />, ' ', <SiJavascript />, ' ', <FaReact />, ' ', <SiDjango />, ' ', <SiJenkins />, ' ', <SiNginx />, ' ', <SiRedis />, ' ', <SiOctopusdeploy />, ' ', <SiAmazonroute53 />, ' ', <SiAmazons3 />, ' ', <SiAmazonec2 />, ' ', <SiApachekafka />],
+      link: 'https://www.mytrail.io/',
       type: 'project',
     },
     {
@@ -44,17 +54,6 @@ const Card = ({ tab }) => {
       ),
       icons: [<FaGithub />, ' ', <FaPython />, ' ', <FaDocker />, ' ', <FaJava />, ' ', <FaReact />],
       link: 'https://dashboard.plaex.net/login',
-      type: 'project',
-    },
-    {
-      name: 'Trail',
-      description: (
-        <>
-          Trail is a cloud-based Corporate Performance Tracking, Monitoring, and Impact Assurance tool that enables organizations to drive efficiency, performance, and growth using the power of data, automation, and gamification technology for <a href="https://venturegardengroup.com/" target="_blank" rel="noreferrer">Venture Garden Group</a>.
-        </>
-      ),
-      icons: [<FaGithub />, ' ', <FaPython />, ' ', <FaDocker />, ' ', <SiKubernetes />, ' ', <SiJavascript />, ' ', <FaReact />, ' ', <SiDjango />, ' ', <SiJenkins />, ' ', <SiNginx />, ' ', <SiRedis />, ' ', <SiOctopusdeploy />, ' ', <SiAmazonroute53 />, ' ', <SiAmazons3 />, ' ', <SiAmazonec2 />, ' ', <SiApachekafka />],
-      link: 'https://www.mytrail.io/',
       type: 'project',
     },
     {
