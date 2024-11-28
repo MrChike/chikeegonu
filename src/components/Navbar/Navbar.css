@@ -9,10 +9,13 @@
 }
 
 .sidebar-toggle button {
-  font-size: 18px;
+  font-size: 30px;
   background: none;
   border: none;
 }
+
+/* .sidebar-toggle button {
+} */
 
 .logo-section {
   display: flex;
@@ -37,7 +40,13 @@
   display: flex;
   align-items: center;
   margin-left: 50px;
+  transition: all 0.3s ease;
 }
+
+/* .nav-links {
+  display: none;
+  transition: all 0.3s ease;
+} */
 
 .nav-links a {
   text-decoration: none;
@@ -183,6 +192,9 @@
   .username {
     font-size: 17px;
     text-align: center;
+  }
+   .nav-links {
+    display: none;
   }
 }
 
