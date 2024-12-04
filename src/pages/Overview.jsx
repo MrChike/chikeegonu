@@ -3,6 +3,8 @@ import { useState } from 'react';
 import '../components/Navbar/Navbar.css';  // Import styles
 import '../components/Profile/Profile.css';
 import Badge from '../utils/img/arctic-code-achievement.png';
+import IBMBadge from '../utils/img/DataScience_WhatIs_Certification.png';
+import PythonBadge from '../utils/img/Python_Badge.svg';
 import ProfilePic from '../utils/img/ProfilePic.jpg';
 import Card from '../components/Card/Card.jsx';
 import Certification from '../components/Card/Certification.jsx';
@@ -35,7 +37,9 @@ const Overview = () => {
     DEV: <a href="https://dev.to/mrchike" target="_blank" rel="noreferrer">dev.to/mrchike</a>, 
     Devpost: <a href="https://devpost.com/MrChike/challenges" target="_blank" rel="noreferrer">devpost.com/MrChike/Hackathons</a>, 
     Github: <a href="https://github.com/MrChike" target="_blank" rel="noreferrer">github.com/MrChike</a>, 
-    achievementBadge: Badge
+    achievementBadge: Badge,
+    IBMDatascienceAchievementBadge: IBMBadge,
+    PythonAchievementBadge: PythonBadge
   };
 
   // Toggle Navbar function
