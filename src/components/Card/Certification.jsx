@@ -1,8 +1,14 @@
 import React, { useState } from 'react';
 import './Card.css';
 import Badge from '../../utils/img/cousera_certification.png'; // Update this with actual badge path
+import DataScienceCert from '../../utils/img/What_is_DataScience_Certificate.png'; // Update this with actual badge path
 
 const certificateData = [
+  {
+    title: "What is DataScience Certification",
+    imageUrl: DataScienceCert,
+    badge: "Nov 2024"
+  },
   {
     title: "IBM Data Science Professional Certificate",
     imageUrl: Badge,

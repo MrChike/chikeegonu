@@ -25,7 +25,7 @@ const Overview = () => {
     name: 'Chike Egonu',
     username: 'MrChike',
     bio: 'A self-disciplined and focused software engineer with experience in creating innovative solutions with a desire to contribute & solve real-world problems.',
-    followers: 24,
+    followers: 29,
     following: 'Elon Musk',
     organization: 'CodeCResent',
     location: 'Lagos, Nigeria',
