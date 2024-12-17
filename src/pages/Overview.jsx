@@ -5,6 +5,7 @@ import '../components/Profile/Profile.css';
 import Badge from '../utils/img/arctic-code-achievement.png';
 import IBMBadge from '../utils/img/DataScience_WhatIs_Certification.png';
 import PythonBadge from '../utils/img/Python_Badge.svg';
+import IBMPythonBadge from '../utils/img/python_badge.png';
 import ProfilePic from '../utils/img/ProfilePic.jpg';
 import Card from '../components/Card/Card.jsx';
 import Certification from '../components/Card/Certification.jsx';
@@ -39,7 +40,8 @@ const Overview = () => {
     Github: <a href="https://github.com/MrChike" target="_blank" rel="noreferrer">github.com/MrChike</a>, 
     achievementBadge: Badge,
     IBMDatascienceAchievementBadge: IBMBadge,
-    PythonAchievementBadge: PythonBadge
+    PythonAchievementBadge: PythonBadge,
+    IBMPythonAchievementBadge: IBMPythonBadge
   };
 
   // Toggle Navbar function
