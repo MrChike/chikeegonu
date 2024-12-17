@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/chikeegonu/static/css/main.eda81006.css",
-    "main.js": "/chikeegonu/static/js/main.a38fa70e.js",
+    "main.css": "/chikeegonu/static/css/main.b95367c1.css",
+    "main.js": "/chikeegonu/static/js/main.22bce0e6.js",
     "static/js/453.d6b234c9.chunk.js": "/chikeegonu/static/js/453.d6b234c9.chunk.js",
     "static/media/What_is_DataScience_Certificate.png": "/chikeegonu/static/media/What_is_DataScience_Certificate.efd22687f207c18797df.png",
     "static/media/PythonCertificate.png": "/chikeegonu/static/media/PythonCertificate.111922fe345597ee0faa.png",
@@ -11,12 +11,12 @@
     "static/media/arctic-code-achievement.png": "/chikeegonu/static/media/arctic-code-achievement.9e8e0d93d00a1d62f7a4.png",
     "static/media/Python_Badge.svg": "/chikeegonu/static/media/Python_Badge.4cd2e8b61789c1a1917872bc3280ed9b.svg",
     "index.html": "/chikeegonu/index.html",
-    "main.eda81006.css.map": "/chikeegonu/static/css/main.eda81006.css.map",
-    "main.a38fa70e.js.map": "/chikeegonu/static/js/main.a38fa70e.js.map",
+    "main.b95367c1.css.map": "/chikeegonu/static/css/main.b95367c1.css.map",
+    "main.22bce0e6.js.map": "/chikeegonu/static/js/main.22bce0e6.js.map",
     "453.d6b234c9.chunk.js.map": "/chikeegonu/static/js/453.d6b234c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eda81006.css",
-    "static/js/main.a38fa70e.js"
+    "static/css/main.b95367c1.css",
+    "static/js/main.22bce0e6.js"
   ]
 }
