@@ -103,10 +103,8 @@
 
 .certificate-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  font-size: 0.9em;
-  margin-left: 50px;
 }
 
 .certificate-info span {
