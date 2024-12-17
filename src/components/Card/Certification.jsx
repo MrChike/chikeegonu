@@ -6,11 +6,6 @@ import PythonCert from '../../utils/img/PythonCertificate.png'; // Update this w
 
 const certificateData = [
   {
-    title: "What is DataScience Certification",
-    imageUrl: DataScienceCert,
-    badge: "Nov 2024"
-  },
-  {
     title: "Python for Data Science, AI & Development",
     imageUrl: PythonCert,
     badge: "Dec 2024"
@@ -18,12 +13,12 @@ const certificateData = [
   {
     title: "IBM Data Science Professional Certificate",
     imageUrl: Badge,
-    badge: "Nov 2024"
+    badge: "Dec 2024"
   },
   {
     title: "IBM AI Engineering Professional Certificate",
     imageUrl: Badge,
-    badge: "Dec 2024"
+    badge: "Jan 2025"
   },
   {
     title: "Java SE 11 Developer",
@@ -39,11 +34,6 @@ const certificateData = [
     title: "CPA – C++ Certified Associate Programmer ",
     imageUrl: Badge,
     badge: "2026"
-  },
-  {
-    title: "AWS Certified Solutions Architect - Associate",
-    imageUrl: Badge,
-    badge: "2025"
   },
   {
     title: "Certified Kubernetes Application Developer (CKAD)",
@@ -97,7 +87,7 @@ const Certification = () => {
             />
             <div className="certificate-details">
               <h3>{selectedCertificate.title}</h3>
-              <p>{selectedCertificate.badge}</p>
+              <p style={{ BackgroundColor: "red" }}>{selectedCertificate.badge}</p>
             </div>
           </div>
         </div>

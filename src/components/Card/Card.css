@@ -106,6 +106,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 0.9em;
+  margin-left: 50px;
 }
 
 .certificate-info span {
