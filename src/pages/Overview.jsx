@@ -6,6 +6,7 @@ import Badge from '../utils/img/arctic-code-achievement.png';
 import IBMBadge from '../utils/img/DataScience_WhatIs_Certification.png';
 import PythonBadge from '../utils/img/Python_Badge.svg';
 import IBMPythonBadge from '../utils/img/python_badge.png';
+import IBMSqlBadge from '../utils/img/db_cert.png';
 import ProfilePic from '../utils/img/ProfilePic.jpg';
 import Card from '../components/Card/Card.jsx';
 import Certification from '../components/Card/Certification.jsx';
@@ -41,7 +42,8 @@ const Overview = () => {
     achievementBadge: Badge,
     IBMDatascienceAchievementBadge: IBMBadge,
     PythonAchievementBadge: PythonBadge,
-    IBMPythonAchievementBadge: IBMPythonBadge
+    IBMPythonAchievementBadge: IBMPythonBadge,
+    IBMSqlAchievementBadge: IBMSqlBadge
   };
 
   // Toggle Navbar function

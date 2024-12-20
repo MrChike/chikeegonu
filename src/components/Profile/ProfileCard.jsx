@@ -41,6 +41,7 @@ const ProfileCard = ({ user }) => {
 
         <div className="profile-achievements">
           <h4>Achievements</h4>
+          <img className="achievement-badge" src={user.IBMSqlAchievementBadge} alt="SqlAchievement Badge" />
           <img className="achievement-badge" src={user.achievementBadge} alt="Achievement Badge" />
           <img className="achievement-badge" src={user.IBMDatascienceAchievementBadge} alt="DSc Achievement Badge" />
           <img className="achievement-badge" src={user.PythonAchievementBadge} alt="Python Achievement Badge" />

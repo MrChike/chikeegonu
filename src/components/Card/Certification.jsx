@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import './Card.css';
 import Badge from '../../utils/img/cousera_certification.png'; // Update this with actual badge path
-import DataScienceCert from '../../utils/img/What_is_DataScience_Certificate.png'; // Update this with actual badge path
+import DBCert from '../../utils/img/database_cert.png'; // Update this with actual badge path
 import PythonCert from '../../utils/img/PythonCertificate.png'; // Update this with actual badge path
 
 const certificateData = [
   {
     title: "Python for Data Science, AI & Development",
     imageUrl: PythonCert,
+    badge: "Dec 2024"
+  },
+  {
+    title: "Databases and SQL for Data Science with Python",
+    imageUrl: DBCert,
     badge: "Dec 2024"
   },
   {
