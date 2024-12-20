@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/chikeegonu/static/css/main.2df314fd.css",
-    "main.js": "/chikeegonu/static/js/main.3c9f010e.js",
+    "main.js": "/chikeegonu/static/js/main.52243572.js",
     "static/js/453.d6b234c9.chunk.js": "/chikeegonu/static/js/453.d6b234c9.chunk.js",
-    "static/media/What_is_DataScience_Certificate.png": "/chikeegonu/static/media/What_is_DataScience_Certificate.efd22687f207c18797df.png",
     "static/media/PythonCertificate.png": "/chikeegonu/static/media/PythonCertificate.111922fe345597ee0faa.png",
+    "static/media/db_cert.png": "/chikeegonu/static/media/db_cert.33a4aed20ae0c4d97a86.png",
+    "static/media/database_cert.png": "/chikeegonu/static/media/database_cert.49f88b4ec5a0440c7aae.png",
     "static/media/python_badge.png": "/chikeegonu/static/media/python_badge.5259ad452772c00f41db.png",
     "static/media/cousera_certification.png": "/chikeegonu/static/media/cousera_certification.947a6e7d3041b9198099.png",
     "static/media/ProfilePic.jpg": "/chikeegonu/static/media/ProfilePic.c0d6bc4694cabf6a2724.jpg",
@@ -13,11 +14,11 @@
     "static/media/Python_Badge.svg": "/chikeegonu/static/media/Python_Badge.4cd2e8b61789c1a1917872bc3280ed9b.svg",
     "index.html": "/chikeegonu/index.html",
     "main.2df314fd.css.map": "/chikeegonu/static/css/main.2df314fd.css.map",
-    "main.3c9f010e.js.map": "/chikeegonu/static/js/main.3c9f010e.js.map",
+    "main.52243572.js.map": "/chikeegonu/static/js/main.52243572.js.map",
     "453.d6b234c9.chunk.js.map": "/chikeegonu/static/js/453.d6b234c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2df314fd.css",
-    "static/js/main.3c9f010e.js"
+    "static/js/main.52243572.js"
   ]
 }
