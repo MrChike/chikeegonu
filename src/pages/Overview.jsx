@@ -4,6 +4,7 @@ import '../components/Navbar/Navbar.css';  // Import styles
 import '../components/Profile/Profile.css';
 import Badge from '../utils/img/arctic-code-achievement.png';
 import IBMBadge from '../utils/img/DataScience_WhatIs_Certification.png';
+import IBMDataAnalysisBadge from '../utils/img/Data_Analysis_Badge.png';
 import PythonBadge from '../utils/img/Python_Badge.svg';
 import IBMPythonBadge from '../utils/img/python_badge.png';
 import IBMSqlBadge from '../utils/img/db_cert.png';
@@ -41,9 +42,10 @@ const Overview = () => {
     Github: <a href="https://github.com/MrChike" target="_blank" rel="noreferrer">github.com/MrChike</a>, 
     achievementBadge: Badge,
     IBMDatascienceAchievementBadge: IBMBadge,
+    IBMDataAnalysisAchievementBadge: IBMDataAnalysisBadge,
     PythonAchievementBadge: PythonBadge,
     IBMPythonAchievementBadge: IBMPythonBadge,
-    IBMSqlAchievementBadge: IBMSqlBadge
+    IBMSqlAchievementBadge: IBMSqlBadge,
   };
 
   // Toggle Navbar function

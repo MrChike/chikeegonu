@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Card.css';
 import Badge from '../../utils/img/cousera_certification.png'; // Update this with actual badge path
+import IBMDataAnalysisCertificate from '../../utils/img/Data_Analysis_Certificate.jpg'; // Update this with actual badge path
 import DBCert from '../../utils/img/database_cert.png'; // Update this with actual badge path
 import PythonCert from '../../utils/img/PythonCertificate.png'; // Update this with actual badge path
 
@@ -14,6 +15,11 @@ const certificateData = [
     title: "Databases and SQL for Data Science with Python",
     imageUrl: DBCert,
     badge: "Dec 2024"
+  },
+  {
+    title: "Data Analysis with Python",
+    imageUrl: IBMDataAnalysisCertificate,
+    badge: "Jan 2025"
   },
   {
     title: "IBM Data Science Professional Certificate",
