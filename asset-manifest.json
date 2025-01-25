@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/chikeegonu/static/css/main.2df314fd.css",
-    "main.js": "/chikeegonu/static/js/main.57460a4d.js",
+    "main.js": "/chikeegonu/static/js/main.04413de4.js",
     "static/js/453.d6b234c9.chunk.js": "/chikeegonu/static/js/453.d6b234c9.chunk.js",
     "static/media/Data_Analysis_Certificate.jpg": "/chikeegonu/static/media/Data_Analysis_Certificate.4dd4e94eefd99a3583aa.jpg",
+    "static/media/StatisticsCertificate.png": "/chikeegonu/static/media/StatisticsCertificate.712f0aa73fc141dc8262.png",
+    "static/media/DataScienceProfessionalCertificate.png": "/chikeegonu/static/media/DataScienceProfessionalCertificate.b9e9f01671b76edd3717.png",
+    "static/media/AdvancedReactCertificate.png": "/chikeegonu/static/media/AdvancedReactCertificate.8a9ba02d826317e57cca.png",
     "static/media/Machine_Learning_Certification.png": "/chikeegonu/static/media/Machine_Learning_Certification.b6bd28ffeb4d05839bcc.png",
     "static/media/PythonCertificate.png": "/chikeegonu/static/media/PythonCertificate.111922fe345597ee0faa.png",
     "static/media/db_cert.png": "/chikeegonu/static/media/db_cert.33a4aed20ae0c4d97a86.png",
     "static/media/database_cert.png": "/chikeegonu/static/media/database_cert.49f88b4ec5a0440c7aae.png",
     "static/media/python_badge.png": "/chikeegonu/static/media/python_badge.5259ad452772c00f41db.png",
+    "static/media/TensorflowCertificate.png": "/chikeegonu/static/media/TensorflowCertificate.eb55710085e04dfb28e1.png",
     "static/media/cousera_certification.png": "/chikeegonu/static/media/cousera_certification.947a6e7d3041b9198099.png",
     "static/media/Data_Analysis_Badge.png": "/chikeegonu/static/media/Data_Analysis_Badge.e1a97158101c0e7babb4.png",
     "static/media/Machine_learning_badge.png": "/chikeegonu/static/media/Machine_learning_badge.d1cb493492c6e10b246b.png",
@@ -18,11 +22,11 @@
     "static/media/Python_Badge.svg": "/chikeegonu/static/media/Python_Badge.4cd2e8b61789c1a1917872bc3280ed9b.svg",
     "index.html": "/chikeegonu/index.html",
     "main.2df314fd.css.map": "/chikeegonu/static/css/main.2df314fd.css.map",
-    "main.57460a4d.js.map": "/chikeegonu/static/js/main.57460a4d.js.map",
+    "main.04413de4.js.map": "/chikeegonu/static/js/main.04413de4.js.map",
     "453.d6b234c9.chunk.js.map": "/chikeegonu/static/js/453.d6b234c9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2df314fd.css",
-    "static/js/main.57460a4d.js"
+    "static/js/main.04413de4.js"
   ]
 }
