@@ -3,6 +3,10 @@ import './Card.css';
 import Badge from '../../utils/img/cousera_certification.png'; // Update this with actual badge path
 import IBMDataAnalysisCertificate from '../../utils/img/Data_Analysis_Certificate.jpg'; // Update this with actual badge path
 import IBMMachineCertificate from '../../utils/img/Machine_Learning_Certification.png'; // Update this with actual badge path
+import DataScienceProfessionalCertificate from '../../utils/img/DataScienceProfessionalCertificate.png'; // Update this with actual badge path
+import StatisticsCertificate from '../../utils/img/StatisticsCertificate.png'; // Update this with actual badge path
+import TensorflowCertificate from '../../utils/img/TensorflowCertificate.png'; // Update this with actual badge path
+import AdvancedReactCertificate from '../../utils/img/AdvancedReactCertificate.png'; // Update this with actual badge path
 import DBCert from '../../utils/img/database_cert.png'; // Update this with actual badge path
 import PythonCert from '../../utils/img/PythonCertificate.png'; // Update this with actual badge path
 
@@ -29,12 +33,22 @@ const certificateData = [
   },
   {
     title: "IBM Data Science Professional Certificate",
-    imageUrl: Badge,
+    imageUrl: DataScienceProfessionalCertificate,
     badge: "Jan 2025"
   },
   {
     title: "Statistics with Python Specialization",
-    imageUrl: Badge,
+    imageUrl: StatisticsCertificate,
+    badge: "Jan 2025"
+  },
+  {
+    title: "Deep Learning with Keras and Tensorflow",
+    imageUrl: TensorflowCertificate,
+    badge: "Jan 2025"
+  },
+  {
+    title: "Advanced React",
+    imageUrl: AdvancedReactCertificate,
     badge: "Jan 2025"
   },
   {
